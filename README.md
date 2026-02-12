@@ -55,7 +55,7 @@ AI-DLC는 기존 SDLC/애자일 방법론을 AI 시대에 맞게 **제1원칙에
 
 ## GitHub Pages
 
-이 문서는 GitHub Pages로 호스팅됩니다: https://roboco-io.github.io/AI-DLC/
+이 문서는 GitHub Pages로 호스팅됩니다: https://serithemage.github.io/AI-DLC/
 
 ## 저작권
 
