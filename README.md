@@ -45,9 +45,13 @@ AI-DLC는 기존 SDLC/애자일 방법론을 AI 시대에 맞게 **제1원칙에
 ```
 .
 ├── AI-Driven Development Liftcycle.md   # 원본 번역 문서
-├── index.md                              # GitHub Pages용 (동일 내용)
+├── index.md                              # GitHub Pages용 (한국어)
 ├── CLAUDE.md                             # Claude Code 작업 가이드
 ├── _config.yml                           # Jekyll 설정
+├── ja/                                   # 일본어 버전
+│   ├── index.md                          # 일본어 메인 문서
+│   ├── README.md                         # 일본어 개요
+│   └── CLAUDE.md                         # 일본어 가이드
 └── images/                               # 다이어그램 이미지
     ├── ai-dlc-framework.png
     ├── ai-dlc-workflow.png
@@ -56,7 +60,9 @@ AI-DLC는 기존 SDLC/애자일 방법론을 AI 시대에 맞게 **제1원칙에
 
 ## GitHub Pages
 
-이 문서는 GitHub Pages로 호스팅됩니다: https://serithemage.github.io/AI-DLC/
+이 문서는 GitHub Pages로 호스팅됩니다:
+- 한국어: https://serithemage.github.io/AI-DLC/
+- 日本語: https://serithemage.github.io/AI-DLC/ja/
 
 ## 저작권
 

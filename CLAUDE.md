@@ -16,9 +16,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```
 AI-DLC/
 ├── AI-Driven Development Liftcycle.md    # 주 문서 (2,837+ 줄)
-├── index.md                               # GitHub Pages 버전 (주 문서와 동일)
+├── index.md                               # GitHub Pages 한국어 버전
 ├── README.md                              # 저장소 개요
+├── CLAUDE.md                              # Claude Code 작업 가이드
 ├── _config.yml                            # Jekyll 설정 (theme: cayman)
+├── ja/                                    # 일본어 버전
+│   ├── index.md                           # 일본어 메인 문서
+│   ├── README.md                          # 일본어 개요
+│   └── CLAUDE.md                          # 일본어 가이드
 └── images/                                # 다이어그램
     ├── ai-dlc-framework.png
     ├── ai-dlc-workflow.png

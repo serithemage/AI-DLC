@@ -17,19 +17,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 AI-DLC/
 ├── AI-Driven Development Liftcycle.md    # 韓国語主文書 (2,837+ 行)
 ├── index.md                               # GitHub Pages 韓国語版
-├── index-ja.md                            # GitHub Pages 日本語版
 ├── README.md                              # リポジトリ概要 (韓国語)
-├── README-ja.md                           # リポジトリ概要 (日本語)
 ├── CLAUDE.md                              # Claude Code作業ガイド (韓国語)
-├── CLAUDE-ja.md                           # Claude Code作業ガイド (日本語)
 ├── _config.yml                            # Jekyll設定 (theme: cayman)
-└── images/                                # ダイアグラム
+├── ja/                                    # 日本語版ディレクトリ
+│   ├── index.md                           # GitHub Pages 日本語版
+│   ├── README.md                          # リポジトリ概要 (日本語)
+│   └── CLAUDE.md                          # Claude Code作業ガイド (日本語)
+└── images/                                # ダイアグラム (共有)
     ├── ai-dlc-framework.png
     ├── ai-dlc-workflow.png
     └── ai-dlc-detailed-workflow.png
 ```
 
-**重要:** 日本語文書を更新する際は、`index-ja.md`と`README-ja.md`の内容を同期させる必要がある。
+**重要:** 日本語文書を更新する際は、`ja/`ディレクトリ内のファイルを修正する。画像は`../images/`パスで参照する。
 
 ## Translation Standards
 
@@ -134,16 +135,18 @@ bundle exec jekyll serve
 
 ### 言語切り替え
 - 韓国語版: https://serithemage.github.io/AI-DLC/
-- 日本語版: https://serithemage.github.io/AI-DLC/index-ja
+- 日本語版: https://serithemage.github.io/AI-DLC/ja/
 
 ## Content Management Guidelines
 
 ### 文書更新時
 1. 韓国語版を更新する場合: `index.md`を修正
-2. 日本語版を更新する場合: `index-ja.md`を修正
+2. 日本語版を更新する場合: `ja/index.md`を修正
 3. 両バージョンの内容を同期させる必要がある場合は両方を更新
 4. ダイアグラム追加/変更時は`images/`ディレクトリに保存
-5. Markdown画像参照パス確認: `![説明](images/ファイル名.png)`
+5. Markdown画像参照パス:
+   - 韓国語版: `![説明](images/ファイル名.png)`
+   - 日本語版: `![説明](../images/ファイル名.png)`
 
 ### コミットメッセージ
 - 日本語または英語使用可能
