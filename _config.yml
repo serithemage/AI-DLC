@@ -1,3 +1,11 @@
-title: AI-DLC 방법론 한국어 번역
-description: AI-Driven Development Lifecycle (AI-DLC) 방법론 정의서 한국어 번역
+title: AI-DLC 방법론 다국어 문서
+description: AI-Driven Development Lifecycle (AI-DLC) 방법론 정의서 - 한국어 및 일본어 번역
 theme: jekyll-theme-cayman
+
+# Language support
+languages:
+  - ko
+  - ja
+
+# Default language
+lang: ko

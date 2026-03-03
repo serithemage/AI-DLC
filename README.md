@@ -46,6 +46,7 @@ AI-DLC는 기존 SDLC/애자일 방법론을 AI 시대에 맞게 **제1원칙에
 .
 ├── AI-Driven Development Liftcycle.md   # 원본 번역 문서
 ├── index.md                              # GitHub Pages용 (동일 내용)
+├── CLAUDE.md                             # Claude Code 작업 가이드
 ├── _config.yml                           # Jekyll 설정
 └── images/                               # 다이어그램 이미지
     ├── ai-dlc-framework.png
